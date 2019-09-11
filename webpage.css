@@ -1,0 +1,100 @@
+body{
+    margin: 0px 0px 20px 0px;
+
+}
+.navbar{
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px solid lightgray;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.navbar-header{
+    float: left;
+    padding: 0px 15px;
+    border-right: 1px solid lightgrey;
+    margin: 0px;
+    font-family: 'Pacifico', cursive;
+}
+.navbar-items{
+    margin: 15px 0px ;
+    float: right;    
+}
+.navbar-item{
+    display: inline;
+    padding: 10px 0px;
+}
+
+.navbar-item a{
+    padding:10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-item a:hover{
+    color: green;
+}
+section:first-of-type{
+    background-color: #f9f9f9;
+}
+#herosection{    
+    height: auto;
+    text-align:  center;
+    margin:70px auto ;
+    width: 70%;
+}
+
+.column4{
+    overflow: hidden;
+    height: auto;
+    text-align: left;
+}
+
+
+.column4 p,span{
+    color: gray;
+}
+
+.column4 p{
+    font-size: 14px;
+}
+
+.container_12{
+    text-align:center;
+}
+
+.container_12 div{
+    margin: 10px;
+}
+
+#grid_6 span{
+    display: block;
+    padding: 20px;
+    font-size: 2em;
+    border-bottom: 3px solid white;
+    color: black;
+}
+
+#grid_6 span:last-child{
+    border-bottom: none;
+}
+
+#footer{
+    background-color: gray;
+    width: 100%;
+}
+
+#footer i{ 
+    float: right;
+    padding: 15px;
+}
+
+#footer i:hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
